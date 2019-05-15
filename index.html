@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="paint">
+    <div class="controls">
+        <div class="button">
+            <div class="control">
+                <button id="gomme">Gomme</button>
+                <button id="crayon">crayon</button>
+                <button id="ligne">ligne</button>
+                <button id="rectangle">rectangle</button>
+                <button id="cercle">cercle</button>
+                <div>
+                    <a id="dl" href="" download="my_paint">
+                    <button id="save">Save</button>
+                    </a>
+                </div>
+            </div>
+            <div id="remplissage">
+                <button id="vide">Vide</button>
+                <button id="rempli">Remplit</button>
+            </div>
+        </div>
+        <input type="color" />
+        <input type="range" min="1" max="10" />
+        <input id="img" type="file">
+    </div>
+    <canvas id="carre" heigth="500" width="800"></canvas>
+    <div id="img_tosave"></div>
+</div>
+</body>
+<script src="my pint.js"></script>
+</html>

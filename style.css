@@ -1,0 +1,18 @@
+#carre
+{
+    border: solid 2px black;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#remplissage
+{
+    margin-left: 50px;
+    display: none;
+}
+
+
